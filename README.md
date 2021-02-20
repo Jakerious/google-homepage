@@ -1,0 +1,1 @@
+This project is all about deconstructing a website and reconstructing it again, namely the google homepage.
