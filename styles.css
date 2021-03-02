@@ -1,124 +1,19 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-}
-li {
-    display: inline;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Open Sans';
-    font-size: .8rem;
-    font-weight: bolder;
-    padding: 6px;
-}
-.nav-top-left {
-    position: absolute;
-    top: 9px;
-    left: 5px;
-    padding: 12px;
-}
-.nav-top-right {
-    position: absolute;
-    top: 9px;
-    right: 9.5em;
-    padding: 12px;
-}
-#more-button {
-    width: 30px;
-    height: 30px;
-}
-
-.sign-in {
-    display: flex;
-    position: absolute;
-    padding: 6px;
-    top: 5px;
-    right: 1em;
-}
-
-/*Sign in button styles here*/
-.sign-in button {
-    color:white;
-    border-style: none;
-    border-radius: 5px;
-    background: blueviolet;
-    padding: 8px;
+html,
+#main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    height: 2.3rem;
-    width: 5rem;
 }
-.sign-in button:hover {
-    box-shadow: 0px 0px 2px blueviolet;
-    cursor: pointer;
-}
-
-#logo {
-    text-align: center;
-    margin-top: 60px;
-    max-width: 100%;
-    max-height: 100%;
-}
-.search-bar {
-    text-align: center;
-}
-.search-buttons {
+#top-row{
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 30px;
+    flex-direction: row;
+    align-items: ;
+}
+#item1 #item2{
     
 }
-#search-logo {
-    position: relative;
-    width: 15px;
-    height: 15px;
-    top: 53px;
-    right: 267px;
-    z-index: 1;
-    filter: opacity(30%);
-}
-input {
-    width: 35rem;
-    border-radius: 25px;
-    padding: 13px;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: rgba(100, 100, 100, .25);
-    border-width: 1px;
-}
-input:hover {
-    box-shadow: 0px 2px 3px 1px silver;
-}
-.nav-left {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    padding: 6px;
-}
-.nav-right {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    padding: 6px;
-}
-#button-a, #button-b {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: bolder;
-    padding: 10px;
-    border-radius: 5px;
-    border-style: none;
-    background: rgba(100, 100, 100, .04);
+#item3 #item4 #item5 #item6{
     
-}
-#button-a:hover, #button-b:hover {
-    border: 1px solid rgba(100, 100, 100, .3);
-    box-shadow: 0px 1px 3px rgba(100, 100, 100, .3);
-    cursor: pointer;
 }
